@@ -45,3 +45,10 @@ items[1].style.fontWeight='Bold';
 // items[1].style.background='yellow';
 items[1].style.color = "green";
 
+// Make the 3 rd element in the list have green background color
+items[2].style.background='green';
+
+// Make all the elements in the list have bold color font
+for (var i=0;i<items.length;i++){
+ items[i].style.fontWeight='Bold';   
+}
