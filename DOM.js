@@ -53,19 +53,29 @@ header.style.borderBottom='solid 3px #000';
 //  items[i].style.fontWeight='Bold';   
 // }
 
-// Get element by tag name
-var li=document.getElementsByTagName('li');
-console.log(li);
-console.log(li[1]);
-li[1].textContent=' Hello 2';
-li[1].style.fontWeight='Bold';
-// items[1].style.background='yellow';
-li[1].style.color = "green";
+// // Get element by tag name
+// var li=document.getElementsByTagName('li');
+// console.log(li);
+// console.log(li[1]);
+// li[1].textContent=' Hello 2';
+// li[1].style.fontWeight='Bold';
+// // items[1].style.background='yellow';
+// li[1].style.color = "green";
 
-// Make the 3 rd element in the list have green background color
-li[2].style.background='green';
+// // Make the 3 rd element in the list have green background color
+// li[2].style.background='green';
 
-// Make all the elements in the list have bold color font
-for (var i=0;i<li.length;i++){
-    li[i].style.fontWeight='Bold';   
-}
+// // Make all the elements in the list have bold color font
+// for (var i=0;i<li.length;i++){
+//     li[i].style.fontWeight='Bold';   
+// }
+
+// Query Selector
+
+// Make the 2nd item have green background color
+var seconditem= document.querySelector('.list-group-item:nth-child(2)');
+seconditem.style.background='green';
+
+// Make the 3rd item invisible
+var thirditem= document.querySelector('.list-group-item:nth-child(3)');
+thirditem.style="display:none";
