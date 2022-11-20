@@ -80,13 +80,21 @@ header.style.borderBottom='solid 3px #000';
 // var thirditem= document.querySelector('.list-group-item:nth-child(3)');
 // thirditem.style="display:none";
 
-// Query selector all
-// Make the 2nd item have green font color
-var seconditem= document.querySelector('.list-group-item:nth-child(2)');
-seconditem.style.color='green';
+// // Query selector all
+// // Make the 2nd item have green font color
+// var seconditem= document.querySelector('.list-group-item:nth-child(2)');
+// seconditem.style.color='green';
 
-// Choose all the odd elements and make their background green using QuerySelectorALL
-var odd = document.querySelectorAll('li:nth-child(odd)');
-for(var i=0;i<odd.length;i++){
-    odd[i].style.backgroundColor='green';
-}
+// // Choose all the odd elements and make their background green using QuerySelectorALL
+// var odd = document.querySelectorAll('li:nth-child(odd)');
+// for(var i=0;i<odd.length;i++){
+//     odd[i].style.backgroundColor='green';
+// }
+// ------------------------------------------------------
+// TRAVERSING THE DOM //
+var itemList = document.querySelector('#items');
+parentNode
+console.log(itemList.parentNode);
+itemList.parentNode.style.backgroundColor = '#f4f4f4';
+console.log(itemList.parentNode.parentNode.parentNode);
+
