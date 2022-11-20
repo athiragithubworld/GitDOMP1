@@ -119,8 +119,8 @@ header.style.borderBottom='solid 3px #000';
 
 
 // lastChild
-// console.log(itemList.lastChild);
+console.log(itemList.lastChild);
 
-// lastElementChild
-console.log(itemList.lastElementChild);
-itemList.lastElementChild.textContent = 'Hello 4';
+// // lastElementChild
+// console.log(itemList.lastElementChild);
+// itemList.lastElementChild.textContent = 'Hello 4';
