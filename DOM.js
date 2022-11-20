@@ -91,9 +91,9 @@ header.style.borderBottom='solid 3px #000';
 //     odd[i].style.backgroundColor='green';
 // }
 // ------------------------------------------------------
-// TRAVERSING THE DOM //
-var itemList = document.querySelector('#items');
-// // parentNode
+// // TRAVERSING THE DOM //
+ var itemList = document.querySelector('#items');
+// parentNode
 // console.log(itemList.parentNode);
 // itemList.parentNode.style.backgroundColor = '#f4f4f4';
 // console.log(itemList.parentNode.parentNode.parentNode);
