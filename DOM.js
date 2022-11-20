@@ -93,7 +93,7 @@ header.style.borderBottom='solid 3px #000';
 // ------------------------------------------------------
 // TRAVERSING THE DOM //
 var itemList = document.querySelector('#items');
-parentNode
+// parentNode
 console.log(itemList.parentNode);
 itemList.parentNode.style.backgroundColor = '#f4f4f4';
 console.log(itemList.parentNode.parentNode.parentNode);
