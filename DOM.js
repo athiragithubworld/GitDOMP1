@@ -110,12 +110,12 @@ header.style.borderBottom='solid 3px #000';
 // console.log(itemList.children[1]);
 // itemList.children[1].style.backgroundColor = 'yellow';
 
-// // // FirstChild
-//  console.log(itemList.firstChild);
+// // FirstChild
+ console.log(itemList.firstChild);
 
-// // firstElementChild
-console.log(itemList.firstElementChild);
-itemList.firstElementChild.textContent = 'Hello 1';
+// // // firstElementChild
+// console.log(itemList.firstElementChild);
+// itemList.firstElementChild.textContent = 'Hello 1';
 
 
 // // lastChild
