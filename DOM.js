@@ -70,12 +70,23 @@ header.style.borderBottom='solid 3px #000';
 //     li[i].style.fontWeight='Bold';   
 // }
 
-// Query Selector
+// // Query Selector
 
-// Make the 2nd item have green background color
+// // Make the 2nd item have green background color
+// var seconditem= document.querySelector('.list-group-item:nth-child(2)');
+// seconditem.style.background='green';
+
+// // Make the 3rd item invisible
+// var thirditem= document.querySelector('.list-group-item:nth-child(3)');
+// thirditem.style="display:none";
+
+// Query selector all
+// Make the 2nd item have green font color
 var seconditem= document.querySelector('.list-group-item:nth-child(2)');
-seconditem.style.background='green';
+seconditem.style.color='green';
 
-// Make the 3rd item invisible
-var thirditem= document.querySelector('.list-group-item:nth-child(3)');
-thirditem.style="display:none";
+// Choose all the odd elements and make their background green using QuerySelectorALL
+var odd = document.querySelectorAll('li:nth-child(odd)');
+for(var i=0;i<odd.length;i++){
+    odd[i].style.backgroundColor='green';
+}
