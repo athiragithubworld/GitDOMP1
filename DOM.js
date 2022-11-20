@@ -98,7 +98,29 @@ header.style.borderBottom='solid 3px #000';
 // itemList.parentNode.style.backgroundColor = '#f4f4f4';
 // console.log(itemList.parentNode.parentNode.parentNode);
 
-// parentElement
-console.log(itemList.parentElement);
-itemList.parentElement.style.backgroundColor = '#f4f4f4';
-console.log(itemList.parentElement.parentElement.parentElement);
+// // parentElement
+// console.log(itemList.parentElement);
+// itemList.parentElement.style.backgroundColor = '#f4f4f4';
+// console.log(itemList.parentElement.parentElement.parentElement);
+
+// childNodes
+// console.log(itemList.childNodes);
+
+// console.log(itemList.children);
+// console.log(itemList.children[1]);
+// itemList.children[1].style.backgroundColor = 'yellow';
+
+// // FirstChild
+// console.log(itemList.firstChild);
+
+// // firstElementChild
+// console.log(itemList.firstElementChild);
+// itemList.firstElementChild.textContent = 'Hello 1';
+
+
+// lastChild
+// console.log(itemList.lastChild);
+
+// lastElementChild
+console.log(itemList.lastElementChild);
+itemList.lastElementChild.textContent = 'Hello 4';
